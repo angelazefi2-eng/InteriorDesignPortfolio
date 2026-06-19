@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interior Design Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Interior Design Portfolio</h1>
+    <p>Manage your interior design projects</p>
+
+    <div class="container">
+        <input type="text" id="client_name" placeholder="Client Name">
+        <input type="text" id="project_type" placeholder="Project Type">
+        <input type="number" id="budget" placeholder="Budget">
+        <input type="text" id="status" placeholder="Status">
+
+        <button onclick="addProject()">Add Project</button>
+    </div>
+
+    <h2>Projects</h2>
+
+    <div id="projectList"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
